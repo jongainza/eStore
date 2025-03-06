@@ -1,1 +1,4 @@
-console.log("hello world");
+// globarl imports
+import toggleSidebar from "./src/toggleSidebar.js";
+
+toggleSidebar();
