@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap");
 /*
 =============== 
 Variables
@@ -127,7 +127,7 @@ p {
   display: block;
 }
 .text-slanted {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Big Shoulders", cursive;
 }
 .section-center {
   width: 90vw;
