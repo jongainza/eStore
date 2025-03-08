@@ -1,2 +1,3 @@
 // globarl imports
-import toggleSidebar from "./src/toggleSidebar.js";
+import "./src/toggleSidebar.js";
+import "./src/toggleCart.js";

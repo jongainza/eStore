@@ -9,5 +9,3 @@ openBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   sidebar.classList.remove("show");
 });
-
-export default taggleSidebar;
