@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Rating</title>
+    <style>
+      .stars {
+        font-size: 30px;
+        color: gray; /* Default color for inactive stars */
+      }
+      .stars .star {
+        cursor: pointer;
+      }
+      .stars .filled {
+        color: gold; /* Color for active stars */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stars" id="starContainer">
+      <span class="star">&#9733;</span>
+      <span class="star">&#9733;</span>
+      <span class="star">&#9733;</span>
+      <span class="star">&#9733;</span>
+      <span class="star">&#9733;</span>
+    </div>
+
+    <script>
+      function setRating(rating) {
+        const stars = document.querySelectorAll(".star"); // Select all stars
+        stars.forEach((star, index) => {
+          if (index < rating) {
+            star.classList.add("filled"); // Add yellow color
+          } else {
+            star.classList.remove("filled"); // Remove yellow color
+          }
+        });
+      }
+
+      // Example: Set rating dynamically (change this value to test)
+      setRating(5); // Change this value from 1 to 5
+    </script>
+  </body>
+</html>
