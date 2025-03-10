@@ -536,7 +536,7 @@ product
 */
 .product-img {
   height: 15rem;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: var(--radius);
 }
 .product-container {
